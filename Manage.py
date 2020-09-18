@@ -484,5 +484,5 @@ class Manage:
             elif int(instruct) == 7:  # [7]合并人员
                 self.combine_users()
 
-# g = Manage()
+#  g = Manage()
 # g.run()

@@ -56,6 +56,6 @@ class VideoStream:
         vedio_Paths = [os.path.join(Setting().vedio_path, f)
                        for f in os.listdir(Setting().vedio_path)]
         for vedio_Path in vedio_Paths:
-            if os.path.split(vedio_Path)[-1].split('.')[-1] == 'avi':
+            if os.path.split(vedio_Path)[-1].split('.')[-1] in ['avi','mp4']:
                 source_list.append(vedio_Path)
         return source_list
