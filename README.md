@@ -12,3 +12,5 @@
 使用anaconda初始环境所需要的额外库：opencv
 
 命令：conda install opencv
+
+本程序在添加新人、登录管理员界面等场景，会通过Server酱提供的API向绑定的微信发送通知。大家可以去Server酱申请自己的API，并替换FaceTool.py中133行api变量的值以向自己的微信发送通知。或改动代码删除此功能（自己懒得改了^）。
